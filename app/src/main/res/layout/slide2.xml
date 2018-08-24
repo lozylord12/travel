@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_logo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_slide"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_travel1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+
+    <TextView
+        android:layout_below="@id/image_slide"
+        android:id="@+id/text_slide"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Plan your travel anytume, anywhere"
+        android:textSize="16dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
