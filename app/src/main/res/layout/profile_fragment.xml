@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="20dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/text_pf"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:text="Profile"/>
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_below="@id/text_pf"
+        android:id="@+id/image_avar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_travel_country"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/text_paw"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_toRightOf="@id/image_avar"
+        android:layout_below="@id/text_pf"
+        android:layout_marginLeft="20dp"
+        android:text="Paw Teamate"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/text_locate"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/text_paw"
+        android:layout_toRightOf="@id/image_avar"
+        android:text="DaNang, Vietnam"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_location_on"/>
+
+    <TextView
+        android:id="@+id/text_contact"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/text_locate"
+        android:layout_toRightOf="@id/image_avar"
+        android:text="contact@pawpaw.com"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_mail_outline"/>
+
+    <TextView
+        android:id="@+id/text_language"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/image_avar"
+        android:text="Language"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:drawableRight="@drawable/ic_navigate_next"
+        android:gravity="fill_vertical"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:id="@+id/text_currency"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/text_language"
+        android:text="Currency"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:drawableRight="@drawable/ic_navigate_next"
+        android:gravity="fill_vertical"
+        android:textColor="@color/colorBlack"/>
+
+    <Switch
+        android:id="@+id/switch_remind"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/text_currency"
+        android:text="Reminders"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/text_unit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/switch_remind"
+        android:text="Units"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:drawableRight="@drawable/ic_navigate_next"
+        android:gravity="fill_vertical"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/text_policy"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/text_unit"
+        android:gravity="fill_vertical"
+        android:text="Privacy Policy"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:drawableRight="@drawable/ic_navigate_next"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/btn_signOut"
+        android:layout_below="@+id/text_policy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorOrange"
+        android:text="Sign Out"/>
+
+    <ImageView
+        android:layout_below="@id/btn_signOut"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_logo"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,10 +1,12 @@
-package com.example.lozyloop.pawtravel.Register;
+package com.example.lozyloop.pawtravel.Screen.Register;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+
 
 public class MpagerAdapter extends PagerAdapter {
 
@@ -31,9 +33,9 @@ public class MpagerAdapter extends PagerAdapter {
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-        View view = layoutInflater.inflate( layouts[position], container, false);
-        container.addView(view);
-        return view;
+        View v = layoutInflater.inflate(layouts[position], container, false);
+        container.addView(v);
+        return v;
     }
 
     @Override

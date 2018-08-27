@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:gravity="center"
-        android:text="Plan your travel anytume, anywhere"
+        android:text="Plan your travel anytime, anywhere"
         android:textSize="16dp"
         android:textColor="@color/colorBlack"
         android:textStyle="italic"/>

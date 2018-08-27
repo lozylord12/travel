@@ -1,4 +1,4 @@
-package com.example.lozyloop.pawtravel.Loading;
+package com.example.lozyloop.pawtravel.Screen.Register.Loading;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -9,8 +9,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import com.example.lozyloop.pawtravel.MainActivity;
 import com.example.lozyloop.pawtravel.R;
+import com.example.lozyloop.pawtravel.Screen.Register.RegisterActivity;
 
 import io.netopen.hotbitmapgg.library.view.RingProgressBar;
 
@@ -43,7 +43,7 @@ public class LoadingActivity extends AppCompatActivity {
         ring_logo.setOnProgressListener(new RingProgressBar.OnProgressListener() {
             @Override
             public void progressToComplete() {
-                Intent myintent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent myintent = new Intent(getApplicationContext(), RegisterActivity.class);
                 startActivity(myintent);
             }
         });

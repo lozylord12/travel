@@ -18,7 +18,7 @@
         android:id="@+id/image_slide"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@drawable/ic_travel"
+        android:src="@drawable/ic_travel3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp" />
 
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:gravity="center"
-        android:text="Plan your travel anytume, anywhere"
+        android:text="Plan your travel anytime, anywhere"
         android:textSize="16dp"
         android:textColor="@color/colorBlack"
         android:textStyle="italic"/>

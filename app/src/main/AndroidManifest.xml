@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".Loading.LoadingActivity" />
-        <activity android:name=".Register.RegisterActivity">
+        <activity android:name=".Screen.Register.Loading.LoadingActivity" />
+        <activity android:name=".Screen.Register.RegisterActivity" />
+        <activity android:name=".Screen.Register.SigninActivity" />
+        <activity android:name=".Screen.Register.CreateActivity">
+        </activity>
+        <activity android:name=".Screen.Register.ResetActivity" />
+        <activity android:name=".Screen.Handle.TravelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
