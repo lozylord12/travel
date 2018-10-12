@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="size_Sign_in">40sp</dimen>
+
+    <dimen name="padding_left">10dp</dimen>
+
+    <dimen name="size_text_login">20dp</dimen>
+
+    <dimen name="size_text_view">30sp</dimen>
+
+    <dimen name="margin_top">10dp</dimen>
+
+
+</resources>

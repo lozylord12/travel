@@ -1,7 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/layout_flight"
     android:background="@color/colorwhite">
 
-</LinearLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/text_Flight"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_flight"
+                android:fontFamily="@font/helvetica"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"/>
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@id/text_Flight"
+                android:id="@+id/et_place_flight"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="#11000000"
+                android:hint="@string/text_hint"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/text_destination"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/et_place_flight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_destination"
+                android:fontFamily="@font/helvetica"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/recycle_destination"
+                android:layout_below="@id/text_destination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/text_deals"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/recycle_destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_deals"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle_deal_flight"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/text_deals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/text_city"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/recycle_deal_flight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_city"
+                android:fontFamily="@font/helvetica"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle_city"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/text_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ListView
+                android:id="@+id/lv_place_flight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_place_flight"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_findflight"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/recycle_city"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/circle"
+                android:text="@string/text_find_flight"
+                android:textColor="@color/colorwhite"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

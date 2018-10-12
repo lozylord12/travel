@@ -5,11 +5,20 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="colorwhite">#ffffff</color>
-    <color name="colorOrange">#FD5739 </color>
+    <color name="colorOrange">#fd5739</color>
     <color name="colorBlack">#121111</color>
+    <color name="colorYellow">#d3f206</color>
 
     <color name="active_dots">#fffafa</color>
-    <color name="inactive_dots">#83878b</color>
+    <color name="inactive_dots">#adb9c6</color>
+    <color name="hidden_image">#4c7b6d64</color>
+
+    <color name="image_dots">#d2d4d6</color>
+    <color name="background_text">#cfd3d7</color>
+
+    <color name="colorGray">#425568</color>
+
+
 
 
 </resources>

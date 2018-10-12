@@ -1,23 +1,221 @@
 <resources>
     <string name="app_name">PawTRavel</string>
 
-    <string name="title_activity_welcome">Home Screen</string>
-    <string name="next">NEXT</string>
-    <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
+    <string name="Sign_in">Sign In</string>
+    <string name="Email">Email Address</string>
+    <string name="Password">Password</string>
+    <string name="Forgot_pass">Forgot your password?</string>
 
-    <string name="slide_1_title">Hello Food!</string>
-    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
 
-    <string name="slide_2_title">Movie Tickets</string>
-    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <string name="Create_account">Create an account?</string>
+    <string name="Create_new_account">Create new account</string>
+    <string name="Log_in">Already on Travel? Log in</string>
 
-    <string name="slide_3_title">Great Discounts</string>
-    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="text_Name">Name</string>
+    <string name="text_Sign_up">Sign Up</string>
 
-    <string name="slide_4_title">World Travel</string>
-    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="text_reset">Reset password</string>
+    <string name="text_your_reset">Reset your password</string>
 
-    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
-    <string name="play_again">Play Again</string>
+    <string name="text_profile">Profile</string>
+    <string name="text_label_profile">Paw Teamate</string>
+    <string name="text_locate">DaNang, Vietnam</string>
+    <string name="text_mail">contact@pawpaw.com</string>
+    <string name="text_language">Language</string>
+    <string name="text_currency">Currency</string>
+    <string name="text_remind">Reminders</string>
+    <string name="text_unit">Units</string>
+    <string name="text_policy">Privacy Policy</string>
+    <string name="text_sign_out">Sign Out</string>
+
+    <string name="text_travel">Travel</string>
+    <string name="text_travel_relax">Relaxation</string>
+
+
+    <string name="text_trip_dalat">Trip to Dalat</string>
+    <string name="text_infor_dalat">
+        The last thing is that Dalat has not air condition. Da Lat city is about 1,500 meters above sea level,
+        with high mountainous climate and an average temperature of 18-21 degrees Celsius.
+        Because of the cold climate, almost all villagers, as well as household or hotels, does not use the air conditioner.\n\n
+
+        Dalat is special in their own cultural identity Tay Nguyen as beautiful as a legend. The gentle people live by doing
+        farming, gardening, coffee, tea, cattle breeding … On the special days of the village,
+        family fun, visitors will see them dancing, singing, playing music. The unique instruments whose sounds sound
+        like winds murmuring, the water flowing down the rocks. Beautiful nature has created the Da Lat people have a lovely
+        style, gentle, elegant and hospitable.
+    </string>
+
+    <string name="text_dalat">City of thousands flower</string>
+    <string name="text_shownmore">Shown more</string>
+    <string name="text_experience">Top Experience</string>
+    <string name="text_food">Dalat Food</string>
+    <string name="text_infor_food">If beautiful and grandiose landscapes, fresh cool weather, friendliness
+                                    and simple-heartedness of the locals are things attracting travelers come
+                                    to Da Lat, its cuisine is the thing that keeps people reminding about this
+                                    land of mist and desiring to be here one more time. Let travel with us and point
+                                    out 10 food must eat in this city.
+    </string>
+
+    <string name="text_shop">Coffee Shop</string>
+    <string name="text_book">Book a trip</string>
+
+    <string name="text_hotel">Hotel</string>
+    <string name="text_hint">Where to?</string>
+
+    <string name="text_place">Near You</string>
+    <string name="text_deals">Deals</string>
+    <string name="text_place_deal">Wilder Nest</string>
+
+    <string name="text_money_deal">$20</string>
+    <string name="text_info_deal">3 Night in Dalat for as low as
+                                  $120 for The Wilder Nest DL
+    </string>
+
+    <string name="text_empty_deal">2 Deals Left</string>
+    <string name="text_world_hotel">World Best Hotels</string>
+    <string name="text_place_hotel">The Wilder Nest</string>
+
+    <string name="text_price">$125</string>
+    <string name="text_date_hotel">06 July - 25 July,2 Guests</string>
+
+    <string name="text_wifi">Free WiFi</string>
+    <string name="text_rate">4.2</string>
+
+    <string-array name="Locate">
+        <item>An Giang</item>
+        <item>Ba Ria - Vung Tau</item>
+        <item>Bac Giang</item>
+        <item>Bac Kan</item>
+        <item>Bac Lieu</item>
+        <item>Bac Ninh</item>
+        <item>Ben Tre</item>
+        <item>Binh Dinh</item>
+        <item>Binh Duong</item>
+        <item>Binh Phuoc</item>
+        <item>Binh Thuan</item>
+        <item>Ca Mau</item>
+        <item>Cao Bang</item>
+        <item>Dak Lak</item>
+        <item>Dak Nong</item>
+        <item>Dien Bien</item>
+        <item>Dong Nai</item>
+        <item>Dong Thap</item>
+        <item>Gia Lai</item>
+        <item>Ha Giang</item>
+        <item>Ha Tinh</item>
+        <item>Hai Duong</item>
+        <item>Hau Giang	</item>
+        <item>Hoa Binh</item>
+        <item>Hung Yen</item>
+        <item>Khanh Hoa</item>
+        <item>Kien Giang</item>
+        <item>Kon Tum</item>
+        <item>Lai Chau</item>
+        <item>Lam Dong</item>
+        <item>Lang Son</item>
+        <item>Lao Cai</item>
+        <item>Long An</item>
+        <item>Nam Dinh</item>
+        <item>Nghe An</item>
+        <item>Ninh Binh</item>
+        <item>Ninh Thuan</item>
+        <item>Phu Tho</item>
+        <item>Quang Binh</item>
+        <item>Quang Ngai</item>
+        <item>Quang Ninh</item>
+        <item>Quang Tri</item>
+        <item>Soc Trang</item>
+        <item>Son La</item>
+        <item>Tay Ninh</item>
+        <item>Thai Binh</item>
+        <item>Thai Nguyen</item>
+        <item>Thanh Hoa</item>
+        <item>Thua Thien Hue</item>
+        <item>Tien Giang</item>
+        <item>Tra Vinh</item>
+        <item>Tuyen Quang</item>
+        <item>Vinh Long</item>
+        <item>Vinh Phuc</item>
+        <item>Yen Bai</item>
+        <item>Phu Yen</item>
+        <item>Da Nang</item>
+        <item>Hai Phong	</item>
+        <item>Ha Noi</item>
+        <item>TP HCM</item>
+        <item>Quang Nam</item>
+        <item>Can Tho</item>
+        <item>Ha Nam</item>
+    </string-array>
+
+    <string name="text_evaluate">Very Good</string>
+    <string name="text_review">23 reviews</string>
+    <string name="text_breakfast">Breakfast</string>
+    <string name="text_pet">Pets</string>
+    <string name="text_tv">Digital TV</string>
+    <string name="text_pool">Pool Access</string>
+
+    <string name="text_introduce">
+        Our hotel established a new trend on the Hungarian market, that are known as city lifestyle (design and boutique) hotels.
+        Our four-star hotel with its 74 rooms offering comfort and relaxation reflects the very popular, modern yet elegant style
+        of international boutique hotels. \n\n
+
+        Each of our rooms with their simple, fresh and warm style, and welcoming colours meet current city design and comfort
+        standards. With the exception of our 14 rooms with single beds, every room has a queen-size double bed. The deluxe interiors
+        of our rooms are completed by LCD television, high-speed internet connection, mini bar and a modern bathroom.
+    </string>
+
+    <string name="text_room">Standard Twin Room</string>
+    <string name="text_money_room">$25</string>
+    <string name="text_num_bed">2 double beds</string>
+    <string name="text_room_left">2 rooms left</string>
+    <string name="text_view_room">View Room</string>
+
+    <string name="text_room_1">Deluxe Twin Room</string>
+    <string name="text_money_room_1">$20</string>
+    <string name="text_book_byphone">Book by Phone</string>
+    <string name="text_reviews">Reviews</string>
+    <string name="text_write_review">Write a review</string>
+    <string name="text_ratebig">4.3</string>
+    <string name="text_evalua">out of 5</string>
+
+    <string name="text_flight">Flight</string>
+    <string name="text_destination">Popular Destinations</string>
+
+    <string name="text_place_deal_flight">Nha Trang</string>
+
+    <string name="text_money_deal_flight">$16</string>
+    <string name="text_info_deal_flight">Fly now to LonDon for
+                                    as low as $206, if you book now
+    </string>
+
+    <string name="text_empty_deal_flight">2 Deals Left</string>
+
+    <string name="text_city">City Breaks</string>
+    <string name="text_current_rate">25 Ratings</string>
+    <string name="text_choose_rate">Tap a star to rate</string>
+    <string name="text_title">Title</string>
+    <string name="text_write_review_rate">Review</string>
+
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+    <string name="text_username">Username</string>
+
+    <string name="text_find_flight">Find Flights</string>
+    <string name="text_one_way">One Way</string>
+    <string name="text_return">Return</string>
+    <string name="text_from">From</string>
+    <string name="text_da_nang">Da Nang</string>
+    <string name="text_to">To</string>
+    <string name="text_da_lat">Da Lat</string>
+    <string name="text_fly_out">Fly Out</string>
+    <string name="text_select">Select Date</string>
+    <string name="text_fly_back">Fly Back</string>
+    <string name="text_passenger">Passengers</string>
+    <string name="text_num_passenger">2 Adults</string>
+    <string name="text_Search">Search</string>
+
+    <string name="text_error_login">Incorrect username or password!</string>
+    <string name="text_select_room">Select a room</string>
+
+
 </resources>

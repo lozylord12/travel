@@ -3,27 +3,27 @@
 
     <item
         android:id = "@+id/nav_travel"
-        android:icon="@mipmap/ic_travel"
+        android:icon="@drawable/ic_travel"
         android:title="Travel"/>
 
     <item
         android:id = "@+id/nav_flight"
-        android:icon="@mipmap/ic_flight"
+        android:icon="@drawable/ic_flight"
         android:title="Flights"/>
 
     <item
         android:id = "@+id/nav_chatbox"
-        android:icon="@mipmap/ic_chatbox"
+        android:icon="@drawable/ic_chatbox"
         android:title="Chatbox"/>
 
     <item
         android:id = "@+id/nav_hotel"
-        android:icon="@mipmap/ic_hotel"
+        android:icon="@drawable/ic_hotel"
         android:title="Hotels"/>
 
     <item
         android:id = "@+id/nav_profile"
-        android:icon="@mipmap/ic_profile"
+        android:icon="@drawable/ic_profile"
         android:title="Profile"/>
 
 

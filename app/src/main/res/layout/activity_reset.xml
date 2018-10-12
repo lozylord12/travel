@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Screen.Register.ResetActivity"
+    tools:context=".Screen.Reset.ResetActivity"
     android:orientation="vertical"
     android:paddingLeft="20dp"
     android:paddingTop="20dp"
@@ -24,7 +23,7 @@
         android:layout_height="80dp"
         android:textColor="@color/colorBlack"
         android:layout_marginTop="10dp"
-        android:text="Reset password"
+        android:text="@string/text_reset"
         android:textSize="30dp"
         android:gravity=""/>
 
@@ -35,7 +34,7 @@
         android:layout_height="50dp"
         android:background="#11000000"
         android:paddingLeft="10dp"
-        android:hint="Email Address"
+        android:hint="@string/Email"
         />
 
     <Button
@@ -44,9 +43,19 @@
         android:layout_marginTop="10dp"
         android:layout_height="50dp"
         android:background="@drawable/circle"
-        android:text="Reset your password"
+        android:text="@string/text_your_reset"
         android:gravity="center"
         android:textColor="@color/colorwhite">
     </Button>
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:layout_marginTop="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionColor="#00F"
+        />
 
 </LinearLayout>

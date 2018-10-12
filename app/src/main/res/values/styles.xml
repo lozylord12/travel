@@ -7,5 +7,32 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorwhite</item>
+        <item name="colorControlActivated">#f9dec212</item>
+    </style>
+
+    <style name="RatingBarWrite" parent="Theme.AppCompat">
+        <item name="colorControlActivated">#f9dec212</item>
+    </style>
+
+    <style name="RatingBarDesign" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorwhite</item>
+        <item name="colorControlActivated">@color/inactive_dots</item>
+    </style>
+
+    <style name="ProgressTheme" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/inactive_dots</item>
+        <item name="colorControlActivated">@color/colorOrange</item>
+    </style>
 
 </resources>

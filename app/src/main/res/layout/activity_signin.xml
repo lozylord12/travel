@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Screen.Register.SigninActivity"
+    tools:context=".Screen.Login.SigninActivity"
     android:orientation="vertical"
     android:paddingLeft="20dp"
     android:paddingTop="20dp"
@@ -17,24 +16,24 @@
         android:layout_height="20dp"
         android:src="@drawable/ic_back"
         android:scaleType="fitStart"
-        android:background="@color/colorwhite"
-        />
+        android:background="@color/colorwhite">
+    </ImageButton>
 
     <TextView
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:textColor="@color/colorBlack"
         android:layout_marginTop="10dp"
-        android:text="Sign in"
-        android:textSize="40dp" />
+        android:text="@string/Sign_in"
+        android:textSize="@dimen/size_Sign_in" />
 
     <EditText
         android:id="@+id/et_user"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#11000000"
-        android:hint="Email Address"
-        android:paddingLeft="10dp"
+        android:hint="@string/Email"
+        android:paddingLeft="@dimen/padding_left"
 
         />
 
@@ -44,9 +43,24 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#11000000"
-        android:paddingLeft="10dp"
-        android:hint="Password"
+        android:paddingLeft="@dimen/padding_left"
+        android:inputType="textPassword"
+        android:hint="@string/Password"
         />
+
+    <TextView
+        android:id="@+id/text_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOrange"
+        android:textSize="20sp"
+        />
+
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
 
     <Button
         android:id="@+id/btn_Login"
@@ -54,17 +68,19 @@
         android:layout_marginTop="10dp"
         android:layout_height="50dp"
         android:background="@drawable/circle"
-        android:text="Sign In"
+        android:text="@string/Sign_in"
         android:gravity="center"
         android:textColor="@color/colorwhite">
     </Button>
+    
+
     
     <TextView
         android:id="@+id/tv_register"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:textStyle="bold"
-        android:text="Forgot your password?"
+        android:text="@string/Forgot_pass"
         android:gravity="center"
         android:textColor="@color/colorBlack"/>
 
