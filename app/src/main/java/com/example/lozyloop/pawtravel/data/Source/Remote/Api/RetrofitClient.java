@@ -21,7 +21,7 @@ public class RetrofitClient {
     public static Retrofit getGetInstance(){
         if (ourInstance == null)
             ourInstance = new Retrofit.Builder()
-                    .baseUrl("http://paw-travel.herokuapp.com/")
+                    .baseUrl("https://paw-travel.herokuapp.com/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                     .build();

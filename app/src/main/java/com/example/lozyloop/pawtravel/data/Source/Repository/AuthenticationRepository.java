@@ -1,6 +1,7 @@
 package com.example.lozyloop.pawtravel.data.Source.Repository;
 
 
+import com.example.lozyloop.pawtravel.data.Model.Profile;
 import com.example.lozyloop.pawtravel.data.Model.Root;
 import com.example.lozyloop.pawtravel.data.Model.coffee_shops;
 import com.example.lozyloop.pawtravel.data.Source.AuthenticationDataSource;
@@ -41,6 +42,10 @@ public class AuthenticationRepository {
 
     public Observable<Root> getTravelFragment(){
         return mRemote.getTravelFragment();
+    }
+
+    public Observable<Profile> getProfile(String id, String username, String api_key){
+        return mRemote.getProfile(id,username,api_key);
     }
 
 

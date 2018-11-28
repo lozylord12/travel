@@ -1,5 +1,6 @@
 package com.example.lozyloop.pawtravel.data.Source.Remote;
 
+import com.example.lozyloop.pawtravel.data.Model.Profile;
 import com.example.lozyloop.pawtravel.data.Model.Root;
 import com.example.lozyloop.pawtravel.data.Model.coffee_shops;
 import com.example.lozyloop.pawtravel.data.Source.AuthenticationDataSource;
@@ -44,5 +45,10 @@ public class AuthenticationRemoteDataSource implements AuthenticationDataSource.
     @Override
     public Observable<Root> getTravelFragment() {
         return mApiService.getTravelFragment();
+    }
+
+    @Override
+    public Observable<Profile> getProfile(String id, String username, String api_key) {
+        return mApiService.getProfile(id,username,api_key);
     }
 }

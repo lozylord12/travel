@@ -60,6 +60,8 @@ public class SigninActivity extends AppCompatActivity implements LoginContract.V
 
     }
 
+
+
     public void init(){
         btn_back = findViewById(R.id.btn_back);
         et_user = findViewById(R.id.et_user);
@@ -94,6 +96,11 @@ public class SigninActivity extends AppCompatActivity implements LoginContract.V
         mProgressBar.setVisibility(View.INVISIBLE);
     }
 
+    @Override
+    public void showLoanding() {
+        mProgressBar.setVisibility(View.VISIBLE);
+    }
+
     public void onClickEvent(){
 
 
@@ -105,7 +112,7 @@ public class SigninActivity extends AppCompatActivity implements LoginContract.V
                 String password = et_pass.getText().toString();
 
                 mPresenter.login(username,password);
-                mProgressBar.setVisibility(View.VISIBLE);
+//                mProgressBar.setVisibility(View.VISIBLE);
 
             }
         });

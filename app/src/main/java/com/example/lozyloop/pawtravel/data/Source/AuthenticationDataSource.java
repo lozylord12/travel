@@ -2,6 +2,7 @@ package com.example.lozyloop.pawtravel.data.Source;
 
 
 
+import com.example.lozyloop.pawtravel.data.Model.Profile;
 import com.example.lozyloop.pawtravel.data.Model.Root;
 import com.example.lozyloop.pawtravel.data.Model.coffee_shops;
 import com.example.lozyloop.pawtravel.data.Source.Remote.Api.Response.LoginResponse;
@@ -29,6 +30,7 @@ public interface AuthenticationDataSource {
         Observable<LogoutResponse> Logout();
         Observable<List<coffee_shops>> getCoffeeShop();
         Observable<Root> getTravelFragment();
+        Observable<Profile> getProfile(String id, String username, String api_key);
 
     }
 }

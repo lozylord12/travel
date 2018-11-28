@@ -7,6 +7,7 @@ public class LoginContract {
     interface View {
         void showManUI();
         void showError();
+        void showLoanding();
     }
 
 

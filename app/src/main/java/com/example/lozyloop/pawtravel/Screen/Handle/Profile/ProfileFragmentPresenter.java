@@ -2,6 +2,7 @@ package com.example.lozyloop.pawtravel.Screen.Handle.Profile;
 
 import android.util.Log;
 
+import com.example.lozyloop.pawtravel.data.Model.Profile;
 import com.example.lozyloop.pawtravel.data.Source.Remote.Api.ApiService.BaseException;
 import com.example.lozyloop.pawtravel.data.Source.Remote.Api.Error.RequestError;
 import com.example.lozyloop.pawtravel.data.Source.Remote.Api.Response.LogoutResponse;
@@ -28,6 +29,20 @@ public class ProfileFragmentPresenter implements ProfileFragmentContract.Present
     @Override
     public void logout() {
         onLogoutSuccess();
+    }
+
+    @Override
+    public void showProfile(String id, String username, String api_key) {
+//        Disposable disposable = mAuthenticationRepository.getProfile(id,username,api_key)
+//                .subscribeOn(Schedulers.io())
+//                .observeOn(AndroidSchedulers.mainThread())
+//                .subscribe(new Consumer<Profile>() {
+//                    @Override
+//                    public void accept(Profile profile) throws Exception {
+//                        mView.ShowProfile(profile);
+//                    }
+//                });
+//        mCompositeDisposable.add(disposable);
     }
 
     @Override

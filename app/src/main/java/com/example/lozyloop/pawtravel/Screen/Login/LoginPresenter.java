@@ -55,6 +55,12 @@ public class LoginPresenter implements LoginContract.Presenter {
         Disposable disposable = mAuthenticationRepository.loginToServer(username, password)
                 .subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread())
+                .doOnSubscribe(new Consumer<Disposable>() {
+                    @Override
+                    public void accept(Disposable disposable) throws Exception {
+                        mView.showLoanding();
+                    }
+                })
                 .subscribe(new Consumer<LoginResponse>() {
                     @Override
                     public void accept(LoginResponse loginResponse) throws Exception {
@@ -69,27 +75,6 @@ public class LoginPresenter implements LoginContract.Presenter {
                         mView.showError();
                     }
                 });
-//        Log.d("ABC","x1");
-//        Disposable disposable = mAuthenticationRepository.loginToServer(username, password)
-//                .subscribeOn(Schedulers.newThread())
-//                .observeOn(AndroidSchedulers.mainThread())
-//                .subscribeWith(new DisposableObserver<LoginResponse>() {
-//                    @Override
-//                    public void onNext(LoginResponse loginResponse) {
-//
-//                    }
-//
-//                    @Override
-//                    public void onError(Throwable e) {
-//                        Log.d("ABC",e.getMessage());
-//                    }
-//
-//                    @Override
-//                    public void onComplete() {
-//                        Log.d("ABC", "ok");
-//                        mView.showManUI();
-//                    }
-//                });
 
 
         mCompositeDisposable.add(disposable);
